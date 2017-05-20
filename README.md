@@ -7,7 +7,7 @@ Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ort
 
 ## Assignment Tasks
 
-There are 5 parts to this assignment:
+Run_analysis.R is a script that is run to complete the five parts to this assignment:
 1. Merge the training and test sets to create one dataset
 2. Extract only measurements on mean and standard deviation
 3. Use descriptive activity names
