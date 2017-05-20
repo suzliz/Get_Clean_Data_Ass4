@@ -14,6 +14,13 @@ There are 5 parts to this assignment:
 4. Label the dataset with descriptive variable names
 5. Create a second independent tidy data set with the average of each variable for each activity and subject
 
+## Files in this Repo
+
+This repo contains three files
+1. run_anaylsis.R - this file contains the R code to load in individual data sets, combine them into one data set and produce the mean data for each category by subject and activity
+2. CodeBook.md - this file describes the input data, output data and the process used to transform the data.
+3. TidySmartPhone.csv is a csv file containing the tidy data produced by run_analysis.R
+
 ## Summary of information - provided as part of the README data file
 
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
