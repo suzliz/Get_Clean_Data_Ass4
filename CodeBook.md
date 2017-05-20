@@ -24,12 +24,12 @@ These signals were used to estimate variables of the feature vector for each pat
 
 1. Subject (Integer Number from 1 to 30)
 2. Activity (Character String)
-  1 WALKING
-  2 WALKING_UPSTAIRS
-  3 WALKING_DOWNSTAIRS
-  4 SITTING
-  5 STANDING
-  6 LAYING
+  * WALKING
+  * WALKING_UPSTAIRS
+  * WALKING_DOWNSTAIRS
+  * SITTING
+  * STANDING
+  * LAYING
 3. tBodyAcc-mean()-X (double)
 4. tBodyAcc-mean()-Y (double)
 5. tBodyAcc-mean()-Z (double)
