@@ -49,3 +49,6 @@ Test_Data <- cbind(subj_test,Y_test, X_test)
  Final <- aggregate(MS_Data[,!grepl("Activity|Subject",names(GMS_Data))],
                     list(Subject = GMS_Data$Subject,
                          Activity = GMS_Data$Activity.Name),mean)
+## Produce tidy csv file
+ write.csv(Final,"TidySmartPhone.csv",row.names=FALSE)
+ 
