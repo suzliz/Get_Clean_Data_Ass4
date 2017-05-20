@@ -19,7 +19,8 @@ Run_analysis.R is a script that is run to complete the five parts to this assign
 This repo contains three files
 1. run_anaylsis.R - this file contains the R code to load in individual data sets, combine them into one data set and produce the mean data for each category by subject and activity
 2. CodeBook.md - this file describes the input data, output data and the process used to transform the data.
-3. TidySmartPhone.csv is a csv file containing the tidy data produced by run_analysis.R
+3. TidySmartPhone.txt is a txt file containing the tidy data produced by run_analysis.R
+4. TidySmartPhone.csv is a csv file containing the tidy data produced by run_analysis.R
 
 ## Summary of information - provided as part of the README data file
 
