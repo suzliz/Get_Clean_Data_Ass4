@@ -22,6 +22,19 @@ This repo contains four files
 3. TidySmartPhone.txt is a txt file containing the tidy data produced by run_analysis.R
 4. TidySmartPhone.csv is a csv file containing the tidy data produced by run_analysis.R
 
+## How to run the script
+
+The test data can be downloaded from the link below and should be put into your working directory.
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+Download run_analysis.R from this repo and place this in your working directory. You should have a directory call "UCI HAR Dataset" with subdirectories called "test" and "train.
+
+Open R or R Studio
+
+Type source("run_analysis.R")
+
+This will produce a tidy data file called "TidySmartPhone.txt" in the working directory.
+
 ## Summary of information - provided as part of the README data file
 
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
