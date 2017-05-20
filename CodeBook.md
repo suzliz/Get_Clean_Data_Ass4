@@ -18,6 +18,8 @@ fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
+Data reported below has been aggregated by taking the mean of all observations for each subject and activity.
+
 
 ## List of data
 
